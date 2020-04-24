@@ -90,6 +90,7 @@ def animate(config, generator, kp_detector, checkpoint, log_dir, dataset):
 
                 visualization = Visualizer(**config['visualizer_params']).visualize(source=source_frame,
                                                                                     driving=driving_frame, out=out)
+                
                 visualization = visualization
                 visualizations.append(visualization)
 
