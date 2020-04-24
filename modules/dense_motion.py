@@ -5,6 +5,7 @@ from modules.util import Hourglass, AntiAliasInterpolation2d, make_coordinate_gr
 
 
 class DenseMotionNetwork(nn.Module):
+    
     """
     Module that predicting a dense motion from sparse motion representation given by kp_source and kp_driving
     """
